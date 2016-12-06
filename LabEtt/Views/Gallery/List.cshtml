@@ -1,0 +1,28 @@
+﻿
+@model IList<GModel.Models.Photo>
+
+@{
+    ViewBag.Title = $"Vi har {Model.Count} bilder i vår lista";
+}
+
+<h3>Nu tittar vi på en lista av bilder!</h3>
+@Html.ActionLink("Upload", "Upload")
+<div class="row">
+    <div class="container">
+        @foreach (var item in Model)
+        {
+
+            <div class="col-lg-4 col-sm-6">
+                <div class="photo">
+                    <h3>@item.PhotoName</h3>
+                    <img src="@Url.Content("~/GalleryFolder/"+@item.ImagPath)" alt="Kan int hita bilden" width="300" height="300">
+                    <div>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.ID })
+                        @Html.ActionLink("Details", "Details", new { id = item.ID })
+                        @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

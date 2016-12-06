@@ -1,0 +1,34 @@
+﻿@model BildGallery.Models.Gallery
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Gallery</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GalleryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GalleryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GalleryDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GalleryDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.GalleryID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

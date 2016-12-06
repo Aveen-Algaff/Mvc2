@@ -1,0 +1,26 @@
+﻿
+@{
+   
+    ViewBag.Title = "Gallery/Index Title";
+}
+
+<h2>Detta kommer från Index.cshtml</h2>
+
+<div>
+    <div>
+        Ditt IP:
+        <strong>@ViewBag.ClientIp</strong> (Visar ditt IP)
+    </div>
+    <div>
+        QueryString:
+        <strong>@ViewBag.QueryString</strong> (Visar allt efter ? i adressfältet)
+    </div>
+    <div>
+        Raw URL:
+        <strong>@ViewBag.RawUrl</strong> (Visar URLen som du skrivit in, exklusive hostname)
+    </div>
+</div>
+
+<h2>Nu laddar vi in en Partial View!</h2>
+
+@Html.Partial("Upload")

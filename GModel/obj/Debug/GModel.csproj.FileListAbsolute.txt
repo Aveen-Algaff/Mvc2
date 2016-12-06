@@ -1,0 +1,5 @@
+C:\Users\ali_n\Source\Repos\MVC\MVCProject\GModel\bin\Debug\GModel.dll
+C:\Users\ali_n\Source\Repos\MVC\MVCProject\GModel\bin\Debug\GModel.pdb
+C:\Users\ali_n\Source\Repos\MVC\MVCProject\GModel\obj\Debug\GModel.csprojResolveAssemblyReference.cache
+C:\Users\ali_n\Source\Repos\MVC\MVCProject\GModel\obj\Debug\GModel.dll
+C:\Users\ali_n\Source\Repos\MVC\MVCProject\GModel\obj\Debug\GModel.pdb

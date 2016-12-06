@@ -1,0 +1,5 @@
+C:\Users\ali_n\Source\Repos\MVC\MVCProject\ABModel\bin\Debug\ABModel.dll
+C:\Users\ali_n\Source\Repos\MVC\MVCProject\ABModel\bin\Debug\ABModel.pdb
+C:\Users\ali_n\Source\Repos\MVC\MVCProject\ABModel\obj\Debug\ABModel.csprojResolveAssemblyReference.cache
+C:\Users\ali_n\Source\Repos\MVC\MVCProject\ABModel\obj\Debug\ABModel.dll
+C:\Users\ali_n\Source\Repos\MVC\MVCProject\ABModel\obj\Debug\ABModel.pdb
